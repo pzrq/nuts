@@ -6,7 +6,7 @@
   "homepage": "https://github.com/GitbookIO/nuts",
   "license": "Apache-2.0",
   "dependencies": {
-    "analytics-node": "1.2.2",
+    "analytics-node": "6.0.0",
     "basic-auth": "1.0.3",
     "body-parser": "^1.19.1",
     "destroy": "1.0.3",
