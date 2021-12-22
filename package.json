@@ -43,6 +43,9 @@
     "type": "git",
     "url": "https://github.com/GitbookIO/nuts.git"
   },
+  "resolutions": {
+    "request": "^2.88.2"
+  },
   "scripts": {
     "start": "node bin/web.js",
     "test": "mocha --reporter list"
