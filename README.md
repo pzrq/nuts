@@ -1,3 +1,25 @@
+# Why the fork?
+
+Hello there!
+
+As [maintainer burnout is a thing](https://www.jeffgeerling.com/blog/2020/saying-no-burnout-open-source-maintainer), and the [original Nuts](https://github.com/GitbookIO/nuts) appears [to be abandoned](https://github.com/GitbookIO/nuts/issues/170) (thanks for all the great work!), this is a fork focused on upgrades as needed for general maintenance, reliability, security and on keeping the ability to download automatic updates by channel working when started locally (or deployed on a cloud provider, though I have not tested and have no intention to test Heroku) via the command line:
+
+    # OWNER is a GitHub account, like pzrq
+    # PRIVATE_REPO is any private repository with releases that need to be served publicly
+    # TOKEN is most likely to be a GitHub server-to-server token, though other tokens might also work:
+    #     https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/
+    GITHUB_ENDPOINT=https://api.github.com GITHUB_REPO=$OWNER/$PRIVATE_REPO GITHUB_TOKEN=$TOKEN PORT=1031 npm start 
+
+Then visiting in a browser to retrieve JSON and following any links to get a working direct download link:
+
+    http://localhost:1031/update/channel/stable/windows/1.0.0
+
+Other bits simply aren't mission critical to my use case so may be working, or may have broken - PRs are welcome to fix any regressions, though no new features will be added.
+
+More details can be found in the [CHANGELOG.md](./CHANGELOG.md)
+
+---
+
 # Nuts
 
 Nuts is a simple (and smart) application to serve desktop-application releases.
