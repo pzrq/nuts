@@ -1277,6 +1277,11 @@ require-directory@^2.1.1:
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
   integrity sha1-jGStX9MNqxyXbiNE/+f3kqam30I=
 
+resolve-pathname@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/resolve-pathname/-/resolve-pathname-2.2.0.tgz#7e9ae21ed815fd63ab189adeee64dc831eefa879"
+  integrity sha512-bAFz9ld18RzJfddgrO2e/0S2O81710++chRMUxHjXOYKF6jTAMrUNZrEZ1PvV0zlhfjidm08iRPdTLPno1FuRg==
+
 safe-buffer@5.2.1, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.2, safe-buffer@~5.2.0:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
@@ -1568,10 +1573,12 @@ url-join@^1.1.0:
   resolved "https://registry.yarnpkg.com/url-join/-/url-join-1.1.0.tgz#741c6c2f4596c4830d6718460920d0c92202dc78"
   integrity sha1-dBxsL0WWxIMNZxhGCSDQySIC3Hg=
 
-urljoin.js@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/urljoin.js/-/urljoin.js-0.1.0.tgz#97914d5227b1c334236a9c843cb47e3ffa7edd6a"
-  integrity sha1-l5FNUiexwzQjapyEPLR+P/p+3Wo=
+urljoin.js@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/urljoin.js/-/urljoin.js-1.0.0.tgz#cb2bd21a7727b5ad3b289a2fe63f6f7120cb0831"
+  integrity sha512-F8+V9v5NctUgVbAKvw508qBqpWrb0xuFMCX9UpdrfuLAFbxO21YVuFdXZA94AQz2s3v+3a6uruHuC7touIa9SA==
+  dependencies:
+    resolve-pathname "2.2.0"
 
 util-deprecate@^1.0.1:
   version "1.0.2"
