@@ -1,6 +1,6 @@
 # Why the fork?
 
-Hello there!
+Hello there! You might like to consider [something apart from Nuts](https://github.com/electron/electron/blob/main/docs/tutorial/updates.md#deploying-an-update-server).
 
 As [maintainer burnout is a thing](https://www.jeffgeerling.com/blog/2020/saying-no-burnout-open-source-maintainer), and the [original Nuts](https://github.com/GitbookIO/nuts) appears [to be abandoned](https://github.com/GitbookIO/nuts/issues/170) (thanks for all the great work!), this is a fork focused on upgrades as needed for general maintenance, reliability, security and on keeping the ability to download automatic updates by channel working when started locally (or deployed on a cloud provider, though I have not tested and have no intention to test Heroku) via the command line:
 
