@@ -5,3 +5,7 @@ updates:
   schedule:
     interval: daily
   open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: strip-bom
+    versions:
+    - 5.0.0
