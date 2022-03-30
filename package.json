@@ -18,7 +18,7 @@
     "fswrite-stream": "^1.0.0",
     "github-webhook-handler": "^1.0.0",
     "lodash": "^4.17.21",
-    "lru-cache": "^6.0.0",
+    "lru-cache": "^7.7.2",
     "octocat": "^1.2.1",
     "q": "^1.5.1",
     "request": "^2.88.2",
